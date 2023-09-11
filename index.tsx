@@ -9,7 +9,7 @@ interface Props {
 
 const App = ({ VIEWER_TYPE = 'ReactViewer' }: Props) => {
   const EPUB_URL =
-    '/react-epub-viewer/files/Diarios de motocicleta_Ernesto Che Guevara.epub';
+    '/public/files/Diarios de motocicleta_Ernesto Che Guevara.epub';
   const ref = useRef<ViewerRef>(null);
 
   return (
